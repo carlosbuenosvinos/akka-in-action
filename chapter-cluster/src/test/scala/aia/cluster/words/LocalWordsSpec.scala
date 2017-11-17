@@ -17,6 +17,9 @@ trait CreateLocalWorkerRouter extends CreateWorkerRouter { this: Actor =>
   }
 }
 
+
+// asdfdsfasfadsfasd
+
 class TestJobMaster extends JobMaster
                        with CreateLocalWorkerRouter
 
